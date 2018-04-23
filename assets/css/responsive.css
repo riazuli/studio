@@ -1,0 +1,230 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero-slider .owl-dots {
+        left: 50px;
+    }
+    .contact-bg {
+        padding: 120px 50px;
+    }
+
+    .single-contact-info img {
+        padding-right: 15px;
+    }
+    .bordered-paterrn {
+    margin: 100px 50px;
+}
+
+.post-entry {
+    padding: 30px;
+}
+
+.post-entry .share-btn {
+    margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .work-process-area .section-title {
+        margin-bottom: 0px;
+    }
+
+    .timeline ul li {
+        margin-left: 20px;
+    }
+
+    .timeline ul li:last-child {
+        width: 1px;
+    }
+    .timeline ul li .single-item,
+    .timeline ul li:last-child .single-item {
+        width: calc(100vw - 91px);
+    }
+
+    .timeline ul li:nth-child(even) .single-item {
+        left: 0px;
+    }
+
+    .timeline ul li:nth-child(even) .single-item::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #F45B69 transparent transparent;
+    }
+    .single-item .icon {
+        left: auto;
+        right: 0;
+    }
+
+    .timeline ul li .single-item {
+        padding: 0;
+        padding-left: 10px;
+        text-align: right;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .timeline ul li:nth-child(odd) .single-item {
+        padding: 0;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+    .timeline ul li .single-item h4:after {
+        display: none;
+    }
+    .timeline ul li:last-child .single-item {
+        text-align: right;
+        padding-left: 10px;
+        padding-top: 185px;
+        top: 0px;
+    }
+
+    .timeline ul li:last-child .single-item .icon {
+        left: auto;
+        right: 0;
+    }
+    .timeline ul li:last-child:after {
+        display: block;
+    }
+
+    .timeline ul li:last-child:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 3px;
+        background-color: #213C4A;
+    }
+    .single-item .icon-wrapp {
+        left:  auto;
+        right: 0;
+    }
+    .timeline ul li:last-child .single-item .icon {
+        right: 20px;
+        top: -24px;
+    }
+    .slide-text-left {
+        padding-top: 0;
+    }
+
+    .slide-text-right {
+        padding-top: 85px;
+    }
+
+    .hero-slider .owl-dots {
+        left: 50%;
+        margin-left: -150px;
+        bottom: 75px;
+    }
+
+    .slide-text {
+        margin-bottom: 30px;
+    }
+    .single-team-member img {
+        width: 100%;
+    }
+    .nav-btn {
+    border-top: 1px solid #fff;
+}
+}
+
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .works-slider.owl-carousel .owl-item img {
+        width: 100%;
+    }
+
+    .single-team-member img {
+        width: 100%;
+    }
+    .contact-bg {
+        padding: 80px;
+    }
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+    .slide-text-right h1 {
+        font-size: 24px;
+    }
+
+    .slide-text-bottom h4 {
+        font-size: 20px;
+    }
+
+    .slide-text-bottom h3 {
+        font-size: 23px;
+    }
+
+    .slide-text-bottom {
+        text-align: center;
+    }
+
+    .slide-text-right {
+        text-align: center;
+    }
+
+    .slide-text-left {
+        text-align: center;
+    }
+    .works-slider .owl-dots {
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    .contact-bg {
+        padding: 50px 15px;
+    }
+
+    .contact-form {
+        padding: 50px 10px;
+    }
+
+    .single-contact-info img {
+        padding-right: 10px;
+    }
+    .bordered-paterrn {
+    margin: 0;
+    padding: 30px 0px;
+}
+
+.post-entry {
+    padding: 30px 0px;
+}
+
+.post-entry .share-btn {
+    margin-top: 10px;
+}
+
+.single-nav-btn {
+    width:  100%;
+    border-top: 1px solid #fff;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.single-nav-btn img {
+    margin: 0px 15px;
+}
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
